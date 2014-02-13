@@ -12,8 +12,8 @@ You must use node 0.11.9 or higher for generator support and run with the `--har
 
 # Example
 
-```
-var genread = require('..');
+```javascript
+var genread = require('genread');
 
 function* twolines(){
   yield 'line 1\n'
@@ -28,3 +28,4 @@ function* fivelines(){
 }
 
 genread(fivelines()).pipe(process.stdout)
+```
