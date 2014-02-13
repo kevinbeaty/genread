@@ -1,0 +1,28 @@
+{
+  "name": "genread",
+  "version": "0.0.1",
+  "description": "Turn any generator into a Readable stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinbeaty/genread"
+  },
+  "keywords": [
+    "stream",
+    "readable",
+    "generator"
+  ],
+  "author": "Kevin Beaty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinbeaty/genread/issues"
+  },
+  "homepage": "https://github.com/kevinbeaty/genread",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "concat-stream": "~1.4.1"
+  }
+}
